@@ -1,4 +1,4 @@
-# 🚀 Process Management Lab (Linux OS) - Assignment 01
+# 🚀 Process Management Lab (Linux OS) - Assignment 02
 
 _A Python-based demonstration of process creation, scheduling, zombie/orphan processes, `/proc` inspection, and command execution using `fork()` and `execvp()`._
 
@@ -90,7 +90,7 @@ Clone the repository:
 
 ```
 git clone https://github.com/bhardwajparth51/OS-Lab-ENCS351.git
-cd Assignment-01
+cd Assignment-02
 ```
 
 ### ▶️ How to Run
@@ -112,7 +112,6 @@ Check the 1process_log.txt` file to see detailed process start and end times.
 ### 🔍 Verify Logs
 
 Sample `process_log.txt` content:
-Check Zombie:
 
 ```
 2025-11-30 18:12:01,123 - Process-1 - Process-1 started
