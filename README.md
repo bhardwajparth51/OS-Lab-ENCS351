@@ -87,7 +87,7 @@ UNIX scheduling behavior
 #### 🎯 Windows users must use WSL or a Linux VM.
 
 #### 🐍 Python
-Python 3.6 or above.
+`Python 3.6` or above.
 
 ✔ No external libraries required
 Only uses Python standard libraries:
@@ -98,7 +98,7 @@ import time
 import subprocess
 import sys
 ```
-###📦 Setup & Installation
+### 📦 Setup & Installation
 Clone the repository:
 
 ```
@@ -109,10 +109,8 @@ cd Process-Management-Lab
 ### ▶️ How to Run
 Run the program:
 
-
-Copy code
-python3 prcoess_management.py
-All output will be saved to output.txt.
+`python3 prcoess_management.py`
+All output will be saved to `output.txt`.
 
 Nothing prints on the terminal because sys.stdout is redirected.
 
@@ -130,7 +128,6 @@ Original PPID
 
 New PPID (usually 1 → adopted by systemd)
 
-<p align="center"> <img src="screenshots/zombie_demo.png" width="600"> </p>
 ### 📘 Code Snippets
 Running tasks:
 
@@ -148,11 +145,11 @@ task5_priorities()
 ```
 ### 📝 What This Project Demonstrates
 Concept	Demonstrated Through
-Process Creation	fork()
-Command Execution	execvp()
-Zombie Process	Parent not calling wait()
+Process Creation	`fork()`
+Command Execution	`execvp()`
+Zombie Process	Parent not calling `wait()`
 Orphan Process	Parent exits before child
-Kernel Process Info	/proc/<pid>/...
+Kernel Process `Info	/proc/<pid>/...`
 Priority Scheduling	nice()
 CPU-bound processes	Heavy loop of 10M iterations
 
