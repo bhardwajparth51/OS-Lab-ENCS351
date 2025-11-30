@@ -1,0 +1,93 @@
+
+==================== PROCESS MANAGEMENT LAB ====================
+
+===== Task 1: Creating Child Processes =====
+All child processes completed.
+
+
+===== Task 2: Executing Commands in Child Processes =====
+
+All commands executed.
+
+
+===== Task 3: Zombie & Orphan Processes =====
+
+--- Zombie Process Demo ---
+[Parent] Created child 2797, NOT waiting (zombie created)
+
+--- Orphan Process Demo ---
+[Parent] Exiting immediately, child will become orphan.
+
+
+===== Task 4: Inspecting /proc Information =====
+
+--- /proc/[pid]/status ---
+Name:	python3
+Umask:	0022
+State:	R (running)
+Tgid:	2789
+Ngid:	0
+Pid:	2789
+PPid:	2129
+TracerPid:	0
+Uid:	1000	1000	1000	1000
+Gid:	1000	1000	1000	1000
+FDSize:	256
+Groups:	4 24 27 30 46 100 1000 
+NStgid:	2789
+NSpid:	2789
+NSpgid:	2789
+NSsid:	2129
+Kthread:	0
+VmPeak:	   17024 kB
+VmSize:	   16996 kB
+VmLck:	       0 kB
+VmPin:	       0 kB
+VmHWM:	   11776 kB
+VmRSS:	   11776 kB
+RssAnon:	    5120 kB
+RssFile:	    6656 kB
+RssShmem:	       0 kB
+VmData:	    6652 kB
+VmStk:	     136 kB
+VmExe:	    2956 kB
+VmLib:	    2444 kB
+VmPTE:	      68 kB
+VmSwap:	       0 kB
+HugetlbPages:	       0 kB
+CoreDumping:	0
+THP_enabled:	1
+untag_mask:	0xffffffffffffffff
+Threads:	1
+SigQ:	1/30361
+SigPnd:	0000000000000000
+ShdPnd:	0000000000000000
+SigBlk:	0000000000000000
+SigIgn:	0000000001001000
+SigCgt:	0000000000000002
+CapInh:	0000000000000000
+CapPrm:	0000000000000000
+CapEff:	0000000000000000
+CapBnd:	000001ffffffffff
+CapAmb:	0000000000000000
+NoNewPrivs:	0
+Seccomp:	0
+Seccomp_filters:	0
+Speculation_Store_Bypass:	thread vulnerable
+SpeculationIndirectBranch:	conditional enabled
+Cpus_allowed:	ff
+Cpus_allowed_list:	0-7
+Mems_allowed:	00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000000,00000001
+Mems_allowed_list:	0
+voluntary_ctxt_switches:	8
+nonvoluntary_ctxt_switches:	1
+
+--- Executable Path ---
+/usr/bin/python3.12
+--- Open File Descriptors ---
+['0', '1', '2', '3', '4', '22', '23', '24', '25']
+
+===== Task 5: Process Prioritization =====
+Priority demo completed.
+
+All tasks completed.
