@@ -47,7 +47,7 @@ Demonstrates parent-child relationship using `fork()`.
 ### ✔ Execute System Commands
 Uses `execvp()` to run:
 
-```.
+
 ls -l
 date
 ps
@@ -96,7 +96,7 @@ import os
 import time
 import subprocess
 import sys
-📦 Setup & Installation
+##📦 Setup & Installation
 Clone the repository:
 
 .
@@ -104,7 +104,7 @@ Copy code
 git clone https://github.com/bhardwajparth51/OS-Lab-ENCS351/Assignment-01.git
 cd Process-Management-Lab
 
-▶️ How to Run
+##▶️ How to Run
 Run the program:
 
 
@@ -114,7 +114,7 @@ All output will be saved to output.txt.
 
 Nothing prints on the terminal because sys.stdout is redirected.
 
-🔍 Verify Zombie & Orphan Processes
+##🔍 Verify Zombie & Orphan Processes
 While Task 3 executes, open another terminal:
 
 Check Zombie:
@@ -129,7 +129,7 @@ Original PPID
 New PPID (usually 1 → adopted by systemd)
 
 <p align="center"> <img src="screenshots/zombie_demo.png" width="600"> </p>
-📘 Code Snippets
+##📘 Code Snippets
 Running tasks:
 
 python
@@ -144,7 +144,7 @@ mypid = os.getpid()
 task4_inspect_proc(mypid)
 
 task5_priorities()
-📝 What This Project Demonstrates
+##📝 What This Project Demonstrates
 Concept	Demonstrated Through
 Process Creation	fork()
 Command Execution	execvp()
@@ -154,7 +154,7 @@ Kernel Process Info	/proc/<pid>/...
 Priority Scheduling	nice()
 CPU-bound processes	Heavy loop of 10M iterations
 
-🧑‍💻 Author
+##🧑‍💻 Author
 Parth Bhardwaj
 B.Tech CSE (AIML)
 2301730289
