@@ -154,9 +154,9 @@ Priority Scheduling	nice()
 CPU-bound processes	Heavy loop of 10M iterations
 
 ### 🧑‍💻 Author
-Parth Bhardwaj
-B.Tech CSE (AIML)
-2301730289
-SECTION - E 
-Operating Systems Lab – Process Management
+**Parth Bhardwaj**  
+**B.Tech CSE (AIML)**  
+**2301730289**  
+**Section - E**  
+
 
