@@ -1,5 +1,6 @@
 # 🚀 Process Management Lab (Linux OS) - Assignment 01
-*A Python-based demonstration of process creation, scheduling, zombie/orphan processes, `/proc` inspection, and command execution using `fork()` and `execvp()`.*
+
+_A Python-based demonstration of process creation, scheduling, zombie/orphan processes, `/proc` inspection, and command execution using `fork()` and `execvp()`._
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.6%2B-blue" />
@@ -41,17 +42,19 @@ This project is ideal for OS lab submissions, system programming learners, and L
 ## 🧰 Features
 
 ### ✔ Process Creation
+
 Demonstrates parent-child relationship using `fork()`.
 
 ### ✔ Execute System Commands
-Uses `execvp()` to run:
 
+Uses `execvp()` to run:
 
 ```
 ls -l
 date
 ps
 ```
+
 ✔ Zombie & Orphan Processes
 Shows real kernel-level behavior of process states.
 
@@ -63,13 +66,16 @@ Reads:
 /proc/<pid>/exe
 /proc/<pid>/fd
 ```
+
 ✔ Process Priority Scheduling
 Runs CPU-intensive tasks at different priority levels using:
 
-
 `os.nice()`
+
 ## ⚙️ Requirements
+
 #### 🐧 Linux OS — Must Have
+
 This program requires Linux because it relies on:
 
 ```
@@ -87,6 +93,7 @@ UNIX scheduling behavior
 #### 🎯 Windows users must use WSL or a Linux VM.
 
 #### 🐍 Python
+
 `Python 3.6` or above.
 
 ✔ No external libraries required
@@ -98,7 +105,9 @@ import time
 import subprocess
 import sys
 ```
+
 ### 📦 Setup & Installation
+
 Clone the repository:
 
 ```
@@ -107,6 +116,7 @@ cd Assignment-01
 ```
 
 ### ▶️ How to Run
+
 Run the program:
 
 `python3 prcoess_management.py`
@@ -115,6 +125,7 @@ All output will be saved to `output.txt`.
 Nothing prints on the terminal because sys.stdout is redirected.
 
 ### 🔍 Verify Zombie & Orphan Processes
+
 While Task 3 executes, open another terminal:
 
 Check Zombie:
@@ -129,6 +140,7 @@ Original PPID
 New PPID (usually 1 → adopted by systemd)
 
 ### 📘 Code Snippets
+
 Running tasks:
 
 ```
@@ -143,20 +155,21 @@ task4_inspect_proc(mypid)
 
 task5_priorities()
 ```
+
 ### 📝 What This Project Demonstrates
-Concept	Demonstrated Through
-Process Creation	`fork()`
-Command Execution	`execvp()`
-Zombie Process	Parent not calling `wait()`
-Orphan Process	Parent exits before child
+
+Concept Demonstrated Through
+Process Creation `fork()`
+Command Execution `execvp()`
+Zombie Process Parent not calling `wait()`
+Orphan Process Parent exits before child
 Kernel Process `Info	/proc/<pid>/...`
-Priority Scheduling	nice()
-CPU-bound processes	Heavy loop of 10M iterations
+Priority Scheduling nice()
+CPU-bound processes Heavy loop of 10M iterations
 
 ### 🧑‍💻 Author
+
 **Parth Bhardwaj**  
 **B.Tech CSE (AIML)**  
 **2301730289**  
-**Section - E**  
-
-
+**Section - E**
