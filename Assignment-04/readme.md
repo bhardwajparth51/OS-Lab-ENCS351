@@ -1,4 +1,4 @@
-# # 🚀 Process Management Lab (Linux OS) - Assignment 04
+# # 🚀 System Calls, VM Detection & File System Operations – OS Lab Assignment 04
 
 A complete Python, Bash, and (optional) C-based implementation demonstrating system calls, batch execution, process creation, IPC, VM detection, and CPU scheduling.
 

@@ -1,13 +1,8 @@
-# 🚀 Process Management Lab (Linux OS) - Assignment 03
+# 🚀 Operating System Lab - Assignment 03
 
-_A Python-based demonstration of process creation, scheduling, zombie/orphan processes, `/proc` inspection, and command execution using `fork()` and `execvp()`._
+A Python-based simulation of CPU scheduling, file allocation, and memory management strategies.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.6%2B-blue" />
-  <img src="https://img.shields.io/badge/Linux-Required-success" />
-  <img src="https://img.shields.io/badge/OS-Lab%20Experiment-orange" />
-  <img src="https://img.shields.io/badge/Status-Completed-brightgreen" />
-</p>
+<p align="center"> <img src="https://img.shields.io/badge/Python-3.x-blue" /> <img src="https://img.shields.io/badge/OS-Linux%2FWindows%2FMacOS-success" /> <img src="https://img.shields.io/badge/OS-Lab%20Experiment-orange" /> <img src="https://img.shields.io/badge/Status-Completed-brightgreen" /> </p>
 
 ---
 
