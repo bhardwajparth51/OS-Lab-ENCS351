@@ -28,14 +28,13 @@ This project is ideal for OS lab submissions, system programming learners, and L
 
 ## 🗂 Repository Structure
 
+```
 📦 Process-Management-Lab
 ├── process_management.py # Main program with all 5 tasks
 ├── output.txt # Generated output for all tasks
 ├── README.md # Instructions, usage, requirements
 └── report.pdf/ # Lab report
-
-yaml
-Copy code
+```
 
 ---
 
@@ -48,30 +47,32 @@ Demonstrates parent-child relationship using `fork()`.
 Uses `execvp()` to run:
 
 
+```
 ls -l
 date
 ps
+```
 ✔ Zombie & Orphan Processes
 Shows real kernel-level behavior of process states.
 
 ✔ /proc Filesystem Inspection
 Reads:
 
-.
-Copy code
+```
 /proc/<pid>/status
 /proc/<pid>/exe
 /proc/<pid>/fd
+```
 ✔ Process Priority Scheduling
 Runs CPU-intensive tasks at different priority levels using:
 
-python
-Copy code
-os.nice()
+
+`os.nice()`
 ## ⚙️ Requirements
 #### 🐧 Linux OS — Must Have
 This program requires Linux because it relies on:
 
+```
 fork()
 
 execvp()
@@ -79,6 +80,7 @@ execvp()
 /proc filesystem
 
 nice()
+```
 
 UNIX scheduling behavior
 
@@ -90,19 +92,19 @@ Python 3.6 or above.
 ✔ No external libraries required
 Only uses Python standard libraries:
 
-python
-Copy code
+```
 import os
 import time
 import subprocess
 import sys
+```
 ###📦 Setup & Installation
 Clone the repository:
 
-.
-Copy code
+```
 git clone https://github.com/bhardwajparth51/OS-Lab-ENCS351/Assignment-01.git
 cd Process-Management-Lab
+```
 
 ### ▶️ How to Run
 Run the program:
@@ -119,8 +121,8 @@ While Task 3 executes, open another terminal:
 
 Check Zombie:
 
-Copy code
-ps -el | grep defunct
+`ps -el | grep defunct`
+
 Check Orphan:
 In output.txt, observe:
 
@@ -132,8 +134,7 @@ New PPID (usually 1 → adopted by systemd)
 ### 📘 Code Snippets
 Running tasks:
 
-python
-Copy code
+```
 print("\n==================== PROCESS MANAGEMENT LAB ====================")
 
 task1_create_processes(3)
@@ -144,6 +145,7 @@ mypid = os.getpid()
 task4_inspect_proc(mypid)
 
 task5_priorities()
+```
 ### 📝 What This Project Demonstrates
 Concept	Demonstrated Through
 Process Creation	fork()
