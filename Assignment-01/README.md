@@ -102,8 +102,8 @@ import sys
 Clone the repository:
 
 ```
-git clone https://github.com/bhardwajparth51/OS-Lab-ENCS351/Assignment-01.git
-cd Process-Management-Lab
+git clone https://github.com/bhardwajparth51/OS-Lab-ENCS351.git
+cd Assignment-01
 ```
 
 ### ▶️ How to Run
